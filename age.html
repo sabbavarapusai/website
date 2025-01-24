@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let age = +prompt("Enter ur age");
+        let date = +prompt("Enter ur birth year");
+    
+        const res = age>=18 && date<=2006
+    
+        const year = new Date().getFullYear();
+    
+        const valid = year - date
+        
+        const fnl = age == valid
+    
+        alert(fnl)
+
+
+
+    </script>
+</body>
+</html>

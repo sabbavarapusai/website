@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Design</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #00bcd4, #ff9800); /* Vibrant gradient */
+            font-family: 'Arial', sans-serif;
+            transition: background 1s ease; /* Smooth background transition */
+        }
+        /* Div container for buttons */
+        div {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transform: scale(1); /* Initial scale */
+            transition: transform 0.3s ease; /* Smooth transform */
+        }
+        /* Hover effect for container */
+        div:hover {
+            transform: scale(1.05); /* Slightly grow the container */
+        }
+        /* Styling for each button */
+        button {
+            background-color: #00bcd4; /* Vibrant color */
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 30px;
+            margin: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+        /* Button hover effects */
+        button:hover {
+            background-color: #0097a7;
+            transform: translateY(-5px); /* Elevate on hover */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+        }
+        /* Button active effect */
+        button:active {
+            transform: translateY(2px); /* Press effect */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        /* Hover effect for buttons */
+        a {
+            text-decoration: none;
+        }
+        /* Responsive design for smaller screens */
+        @media (max-width: 600px) {
+            div {
+                width: 85%;
+                padding: 25px;
+            }
+            button {
+                width: 100%;
+                padding: 18px 25px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href=" https://sirisha2704.github.io/shopping/"><button>Shopping</button></a>
+        <a href="https://sirisha2704.github.io/account/"><button>Banking</button></a>
+        <a href="https://sirisha2704.github.io/api/"><button>Api</button></a>
+    </div>
+</body>
+</html>
